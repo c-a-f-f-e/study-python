@@ -79,4 +79,131 @@ print("何カロリーでしたか？")
 　　　print(" こんにちは ")
 
 
+#4-2
+#変数 インタラクティブモードとプログラムファイルから変更可能
+a = 1
+b = 2
+print(a + b)
+#4-3
+#繰り返し実行 for文 
+print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+for a in [1,2,3,4,5]:
+    print(a)
+for a in [1,2,3,4,5]:
+    print(i)　   #出力はインデントを入れて繰り返しの範囲の判別を楽に
+#複数の分を入力する場合のインデントの違い
+for a in [1,2,3,4,5]:
+    print(a)
+    print("こんにちは")
+#インデントの範囲による繰り返しの範囲の違い
+for a in [1,2,3,4,5]:
+    print[a]
+print("こんにちは")
+#range関数   range(開始する値,終了する値)
+for a in range(1,100 + 1):
+    print(a)
+    print("こんにちは")
+for a in range(0, 100)
+    print(a+1)
+    print("こんにちは")
+for a in range(100)
+    print(a + 1)
+    print("こんにちは")
+for a in "Hello":
+    print(a)
+
+#4-4 条件が成り立っている時のみ実行したい
+#while分で繰り返す
+total =  0
+a = 1
+while total <= 50:
+    total = total + a
+    a = a + 1
+print(total)
+#for公文と同じ処理をwhileで記述する
+for a in range(1, 5 + 1):
+    print(a)
+a = 1
+while a <= 5:
+    print(a)
+    a = a + 1
+#永遠に繰り返したい時
+while True:
+
+#4-5条件分岐する　if構文
+for a in range(1, 10+1):
+    if a <= 5:
+        print("小さいです")
+    else:
+        print("大きいです")
+#条件を組み合わせる
+if (a >= 1) and (a <= 5):
+    print("aは3かもしれません")
+if 1 <= a <= 5:
+    print("aは3かもしれません")
+#演習
+for a in (1, 10 + 1 ):
+    print(a)
+    if a % 2 == 0:
+        print("◯")
+    if a % 3 == 0:
+        print("×")
+    if ( a % 2 == 0) and ( a % 3 == 0):
+        print("△")　#プログラムとして表現できる、同じ意味での考え方の置き換え
+#elseを使って『出ない時の条件』を並べる
+for a in (1, 12 + 1 ):
+    print(a)
+    if (a % 12 == 0):
+        print("○")
+else:
+    if (a % 4 == 0):
+        print ("△")
+    else:
+        if (a % 2 == 0):
+            print("×")
+        else:
+            print("☆")
+#elifを使う
+for a in (1, 12 + 1 ):
+    print(a)
+    if (a % 12 == 0):
+        print("o")
+    elif (a % 4 == 0):
+        print("△")
+    elif if (a % 2 == 0):
+        print("x")
+    else:
+        print("☆")
+#条件が成り立ったときに繰り返しをやめる
+total = 0
+a = 1
+while total <= 50:
+    total = total + a
+    a = a + 1
+print(total)
+#上記のプログラムをbreakを用いて
+total = 0
+a = 1
+while True:
+    total = total + a = a + 1
+    if total > 50:
+        break
+print(total)
+
+#4-6 関数
+#関数の定義
+def tashizan(a, b + 1):
+    total = 0
+    for i in range(a, b + 1):
+        total = total + 1
+    return total    #return構文
+
+
+
+
+
 
