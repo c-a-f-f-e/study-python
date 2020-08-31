@@ -203,7 +203,27 @@ def tashizan(a, b + 1):
     return total    #return構文
 #関数の呼び出し
 c = tashizan(1, 5)
+#スコープの理解   変数の有効範囲(scope)
+a = "abc"
+def test():
+    print(a)
+    return
+test()
+print(a)
+ #グローバル スコープとローカルスコープ
+def test():
+    a = "def"   #
+    print(a)  
+    return
+#関数からグローバルスコープにアクセスする
+a = "abc"
 
+def test():
+    global a   #グローバル宣言
+    a = "def"
+    print(a)
+    return
 
-
+test()
+print(a)
 
