@@ -211,6 +211,7 @@ def test():
 test()
 print(a)
  #グローバル スコープとローカルスコープ
+a = "abc"
 def test():
     a = "def"   #
     print(a)  
@@ -226,4 +227,13 @@ def test():
 
 test()
 print(a)
+#引数の省略　　デフォルト引数
+def tashizan(a, b = 100):
+tashizan(1)
+#引数の省略　　項目名をつけて指定
+create_oval(X座標①, Y座標①, X座標②, Y座標② )
+create_oval(X座標①, Y座標①, X座標②, Y座標②, fill - "red")
+create_oval(X座標①, Y座標①, X座標②, Y座標②, fill - "red", width=2)
+
+
 
