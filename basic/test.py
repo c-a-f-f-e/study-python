@@ -201,6 +201,9 @@ def tashizan(a, b + 1):
     for i in range(a, b + 1):
         total = total + 1
     return total    #return構文
+#関数の呼び出し
+c = tashizan(1, 5)
+
 
 
 
