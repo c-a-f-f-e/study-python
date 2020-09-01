@@ -45,4 +45,4 @@ a = [random.randient(0, 9),
     random.randient(0, 9)]
 print(str(a[0]) + str(a[1]) + str(a[2]) + str(a[3]))
 
-#5-4  入力を間違えた時にエラーを判別するために
+
