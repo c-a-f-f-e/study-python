@@ -1,7 +1,7 @@
 # coding:utf-8
 #メッセージの表示
 import tkinter as tk
-import tkinter.messagebox as tmg
+import tkinter.messagebox as tmsg
 
 #ボタンがクリックされた時の処理
 def ButtonClick():
@@ -16,7 +16,10 @@ labell = tk.Label(root, text="数を入力してね",
 font=("Helvetica", 14))
 labell.place(x = 20, y = 20)
 
-editbox1 = tk.Entry(width = 4, font=("Helvetica", 14) commando=ButtonClick)
+editbox1 = tk.Button(root, font=("Helvetica", 28))
+editbox1.place(x = 120, y = 60)
+
+button1 = tk.Button(root, text = "チェック", font=("Helvetica", 14), command=ButtonClick)
 button1.place(x = 220, y = 60)
 
 root.mainloop()
