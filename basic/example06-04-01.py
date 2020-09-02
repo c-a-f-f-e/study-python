@@ -1,4 +1,5 @@
 # coding:utf-8
+#ボタンの配置
 import tkinter as tk
 
 root = tk.Tk()
