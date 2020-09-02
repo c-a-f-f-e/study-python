@@ -6,7 +6,7 @@ import = random
 isok = False
 while isok == False:
     b = input("数字を入れてね")
-    if lem(b) != 4:
+    if len(b) != 4:
         print("四桁の数字を入れて下さい")
     else:
         if (b[0] < "0") or (b[1] > "9") :
