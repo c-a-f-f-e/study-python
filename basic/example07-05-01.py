@@ -1,4 +1,4 @@
-# coding:utf-1
+# coding:utf-8
 import tkinter as tk
 
 # 円の座標と半径
