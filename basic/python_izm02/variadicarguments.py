@@ -26,7 +26,7 @@ def test_func(**kwargs):
 test_func(code=100, name='python-izm')
 
 
-# **の可変長引数は関数内においてディクショナリとなる
+# **の可変長引数は関数内においてディクショナリとなる 
 def test_func(code, name, kana, *args, **kwargs):
     print(code, name, kana)
     print(args)
