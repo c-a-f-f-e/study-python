@@ -11,4 +11,4 @@ name = "Yamada"
 if name:
     print("名前は" + name + "です。")
 else:
-    print("名前は水戸上奥です。")
+    print("名前は未登録です。")
