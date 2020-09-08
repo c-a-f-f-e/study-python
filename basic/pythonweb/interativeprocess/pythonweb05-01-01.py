@@ -1,4 +1,12 @@
 # coding:utf-8
+num = 0
+while num < 2:
+    print("num = " + str(num))
+    num += 1
+
+print("End")
+
+
 num = 1
 print("Start")
 
@@ -6,7 +14,7 @@ while num < 6:
     print("num = " + str(str(num)))
     num += 1
 
-print("Emd")
+print("End")
 
 
 num = 1
