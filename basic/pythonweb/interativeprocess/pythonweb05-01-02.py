@@ -17,7 +17,7 @@ print("\n")
 mydict = {"L":"Lemon", "O":"Orange", "G":"Grapes"}
 print(mydict)
 for mykey, myvalue in mydict.items():
-    print("ke:" + mykey + ",value:" + myvalue)
+    print("key:" + mykey + ",value:" + myvalue)
 
 
 
