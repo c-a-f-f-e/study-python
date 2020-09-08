@@ -15,10 +15,10 @@ print("Start")
 while True:
     print("数値を入力すると5倍した値を表示します")
     print("終了する場合は-1を入力して下さい")
-    num int(input("> "))
+    num = int(input("> "))
     if num == -1:
         break
-    print("num = " + str(num) + ",num *" + str(num * 5) + "\n")
+    print("num = " + str(num) + ",num * =" + str(num * 5) + "\n")
 
 print("End")
 
@@ -37,7 +37,10 @@ print("Start")
 total = 0
 
 for num in [35, 25, "OK", 45, "Pass", 28]:
-    if isinstans(num, str):
+    if isinstance(num, str):
         continue
-    print("Total = " str(total))
-    print("End")
+    print("num = " + str(num))
+    total += num
+
+print("Total = " + str(total))
+print("End")
