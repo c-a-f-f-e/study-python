@@ -4,7 +4,7 @@ mylist = ["Blue", "Red", "Green"]
 print(mylist)
 
 mylist.insert(2,"White")
-print(myselist)
+print(mylist)
 
 mylist.insert(0,"Black")
 print(mylist)
