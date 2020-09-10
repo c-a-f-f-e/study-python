@@ -27,3 +27,9 @@ print(mydict)
 val = mydict.popitem()
 print(val)
 print(mydict)
+
+
+# 全ての要素の削除
+mydict = {"A":"Apple", "L":"Lemon", "O":"Orangr"}
+mydirect.clear()
+print(myydirect)
