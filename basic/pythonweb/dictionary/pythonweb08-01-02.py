@@ -14,7 +14,7 @@ key2 = "FR"
 print("キー:" + key2 + "、値:" + mydict[key2])
 
 
-# getメソッドを使用いsて値を取得する
+# getメソッドを使用いて値を取得する
 mydict = {"JP":"Japan", "DE":"Germany", "FR":"France"}
 
 print(mydict)
