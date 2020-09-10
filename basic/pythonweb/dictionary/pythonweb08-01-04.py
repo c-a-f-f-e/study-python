@@ -1,6 +1,6 @@
 # coding:utf-8
 # 辞書の長さの取得
-colorlist = ["Blue", "Red", "Green", "White", "Black"]
+colorlist = {"B":"Blue", "R":"Red", "G":"Green", "W":"White"}
 
 print(colorlist)
 print("要素数は" + str(len(colorlist)) + "です。"）
