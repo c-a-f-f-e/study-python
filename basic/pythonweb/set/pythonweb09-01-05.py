@@ -8,6 +8,9 @@ set1 ==  set2
 set1 = {"A", "B", "C"}
 set2 = frozenset(["B", "C", "A"])
 set1 == set2
+
+
+
 # 集合が他の集合と互いに素かどうか
 set1 = {"A", "B"}
 set2 = {"B", "D", "C", "A"}
