@@ -33,3 +33,10 @@ for val in mylist:
         total += val
 
 print("total:" + str(total))
+
+
+"""
+isinstance 関数と type 関数の違いとして、 
+isinstance 関数は 2 番目の引数に指定したデータ型のサブクラスのオブジェクトであっても真となります。
+その為、サブクラスも含めて同じデータ型かどうか調べたい場合には isinstance 関数を使うと便利です。
+"""
